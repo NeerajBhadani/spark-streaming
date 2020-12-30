@@ -1,0 +1,6 @@
+.idea
+checkpoint/*
+output/*
+spark-warehouse/*
+target/*
+*.iml
