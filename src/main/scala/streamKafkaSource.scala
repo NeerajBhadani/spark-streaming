@@ -1,7 +1,7 @@
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
 
-object streamKafkaIntegration {
+object streamKafkaSource {
   def main(args: Array[String]): Unit = {
 
     // Create Spark Session
