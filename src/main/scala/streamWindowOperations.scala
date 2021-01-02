@@ -3,7 +3,7 @@ import org.apache.spark.sql.functions._
 import org.apache.spark.sql.Column
 import org.apache.spark.sql.types.{DoubleType, IntegerType, LongType, StringType, StructField, StructType}
 
-object windowOperations {
+object streamWindowOperations {
   def main(args: Array[String]): Unit = {
 
     // Create Spark Session
