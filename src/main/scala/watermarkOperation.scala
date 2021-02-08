@@ -42,7 +42,6 @@ object watermarkOperation {
       .groupBy(window(col("event_timestamp"), "5 minute"))
       .agg(sum("val").as("sum"))
 
-
     // Display DataFrame on console.
     resultDF
       .writeStream
