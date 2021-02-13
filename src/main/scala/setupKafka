@@ -1,0 +1,23 @@
+# Install Kafka
+https://docs.confluent.io/platform/current/quickstart/ce-quickstart.html
+
+# Start Confluent
+confluent local services start
+
+# Open Control Center web interface at http://localhost:9021
+
+# Create Kafka Topic
+kafka-topics --create \
+--zookeeper localhost:2181 \
+    --replication-factor 1 \
+    --partitions 1 \
+    --topic test
+
+# List Kafka Topic
+kafka-topics --list --zookeeper localhost:2181
+
+# Insert Data Into Kafka
+kafka-console-producer --broker-list localhost:9092 --topic test
+
+# Consume Data From Kafka
+kafka-console-consumer --bootstrap-server localhost:9092 --topic test
