@@ -15,3 +15,5 @@ For example, Apple stock data present in this file: [AAPL_2006–01–01_to_2018
 2. [Apache Spark Structured Streaming - Input Sources (2 of 6)](https://medium.com/expedia-group-tech/apache-spark-structured-streaming-input-sources-2-of-6-6a72f798838c)
 
 3. [Apache Spark Structured Streaming-Output Sinks (3 of 6)](https://medium.com/expedia-group-tech/apache-spark-structured-streaming-output-sinks-3-of-6-ed3247545fbc)
+
+4. [Apache Spark Structured Streaming-Checkpoints and Triggers (4 of 6)](https://medium.com/expedia-group-tech/apache-spark-structured-streaming-checkpoints-and-triggers-4-of-6-b6f15d5cfd8d)
