@@ -19,3 +19,5 @@ For example, Apple stock data present in this file: [AAPL_2006–01–01_to_2018
 4. [Apache Spark Structured Streaming-Checkpoints and Triggers (4 of 6)](https://medium.com/expedia-group-tech/apache-spark-structured-streaming-checkpoints-and-triggers-4-of-6-b6f15d5cfd8d)
 
 5. [Apache Spark Structured Streaming — Operations (5 of 6)](https://medium.com/expedia-group-tech/apache-spark-structured-streaming-operations-5-of-6-40d907866fa7)
+
+6. [Apache Spark Structured Streaming — Watermarking (6 of 6)](https://medium.com/expedia-group-tech/apache-spark-structured-streaming-watermarking-6-of-6-1187542d779f)
